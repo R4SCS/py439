@@ -1,0 +1,47 @@
+                    GNU GENERAL PUBLIC LICENSE
+                       Version 3, 29 June 2007
+
+ Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+
+For the full text of the GNU General Public License v3.0, see:
+https://www.gnu.org/licenses/gpl-3.0.txt
+
+---
+
+py439 - SDR decoder for 433.92 MHz wireless sensors and devices
+Copyright (C) 2026 R4SCS (https://github.com/R4SCS/)
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+---
+
+PROTOCOL SOURCES (clean-room implementation):
+
+All protocol decoders in this project are clean-room implementations based
+on publicly available protocol documentation. No source code from rtl_433
+or other GPL-licensed decoder projects was used as reference material.
+
+Sources used:
+  - wmrx00 Oregon Scientific RF Protocols PDF (osengr.org)
+  - aquaticus/nexus433 independent documentation (github.com/aquaticus/nexus433)
+  - Hackaday reverse-engineering projects (hackaday.io)
+  - Arduino Forum community reverse-engineering (forum.arduino.cc)
+  - pilight protocol documentation - public specs (manual.pilight.org)
+  - RCSwitch protocol documentation - public specs (github.com/sui77/rc-switch)
+  - onetransistor.eu signal decoding guides
+  - fetzerch.github.io reverse-engineering blog
+  - tommie.github.io TX07K/WEC-2103 reverse-engineering
+  - goughlui.com Efergy E2 reverse-engineering
+  - platenspeler.github.io 433MHz transmitter documentation
+  - sevenwatt.com WH1080 protocol documentation
+  - Stack Overflow community reverse-engineering
